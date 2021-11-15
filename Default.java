@@ -10,6 +10,7 @@ public class Default {
         city = "Rockwell";
         String region = city;
         String uncommon = new String("Don't do this");
+        // can initialize with "new" keyword but it's non-standard
 
         System.out.println(address);
         System.out.println(customer);
