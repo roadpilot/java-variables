@@ -31,6 +31,7 @@ public class Default {
         System.out.println("The second index of '.' is " + index2);
 
         // using "byte" for octet of ip address
+        // start location is inclusive, stop location of substring is not inclusive
         String secondByte = ipAddress.substring(index1 +1 , index2);
         System.out.println("Second byte of the ip address is: " + secondByte);
     }   
