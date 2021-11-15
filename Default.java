@@ -20,7 +20,11 @@ public class Default {
         // System.out.println(region);
 
         // concatenation with "+"
-        System.out.println(city + " " + zip);
+        // System.out.println(city + " " + zip);
 
+        // indexOf
+        String ipAddress = "192.168.0.1";
+        int index1 = ipAddress.indexOf('.');
+        System.out.println("The index of '.' is " + index1);
     }
 }
