@@ -18,7 +18,17 @@ public class Math {
         System.out.println(result);    
 
         result = num1 / num3; // this is 10 / 3 => 3.3 but since result is "int" the fraction gets dropped;
-        System.out.println(result);    
+        System.out.println(result);   
+
+        /* Rules of precedence:
+        1. operators within parentheses, nested first
+        2. ++ / --
+        3. multiply / divide
+        4. add / subtract
+        */
+        System.out.println(25 - 5 * 4 / 2 - 10 + 4); //=> 9
+        System.out.println(((25 - 5) * 4) / (2 - 10) + 4); //=> -6
+
     }
     
 }
