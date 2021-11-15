@@ -34,5 +34,20 @@ public class Default {
         // start location is inclusive, stop location of substring is not inclusive
         String secondByte = ipAddress.substring(index1 +1 , index2);
         System.out.println("Second byte of the ip address is: " + secondByte);
+
+        int quantity1 = 5;
+        String items = "cables";
+        double price = 3.99;
+
+        String message = customer + " ordered " + quantity1 + " " + items + " at $" + price + ".";
+        System.out.println(message);
+        System.out.println("The total was: " + quantity1 * price);
+
+        message = "One more: " + quantity1 + 1; // order of precedence makes this output "51"
+        System.out.println(message);
+
+        message = "One more: " + (quantity1 + 1); // order of precedence makes this output "6"
+        System.out.println(message);
+
     }   
 }
