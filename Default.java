@@ -41,13 +41,21 @@ public class Default {
 
         String message = customer + " ordered " + quantity1 + " " + items + " at $" + price + ".";
         System.out.println(message);
-        System.out.println("The total was: " + quantity1 * price);
+        System.out.println("The total was: " + quantity1 * price); // => 19.95000000003
 
         message = "One more: " + quantity1 + 1; // order of precedence makes this output "51"
         System.out.println(message);
 
         message = "One more: " + (quantity1 + 1); // order of precedence makes this output "6"
         System.out.println(message);
+
+        /*
+        printf vs println
+        "%f" represents floating point value
+        "%.2f" represents 2 decimal float
+        "\n" will create new line (automatic in println)
+        */
+        System.out.printf("The total was: %.2f\n", quantity1 * price); // => 19.95
 
     }   
 }
