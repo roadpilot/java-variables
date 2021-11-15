@@ -26,5 +26,8 @@ public class Default {
         String ipAddress = "192.168.0.1";
         int index1 = ipAddress.indexOf('.');
         System.out.println("The index of '.' is " + index1);
+
+        int index2 = ipAddress.indexOf('.', index1 + 1);
+        System.out.println("The second index of '.' is " + index2);
     }
 }
