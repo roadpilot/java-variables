@@ -17,6 +17,7 @@ public class Default {
         System.out.println(city);
         System.out.println(zip);
         System.out.println(country);
+        System.out.println(region);
 
     }
 }
