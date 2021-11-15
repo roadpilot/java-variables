@@ -5,6 +5,20 @@ public class Math {
 
         int result = num1 + num2;
         System.out.println(result);    
+
+        result = num1 - num2;
+        System.out.println(result);    
+
+        result = num1 * num2;
+        System.out.println(result);    
+
+        //int result = num1 / 0;
+        // never divide by 0
+        result = num1 / num2;
+        System.out.println(result);    
+
+        result = num1 / num3; // this is 10 / 3 => 3.3 but since result is "int" the fraction gets dropped;
+        System.out.println(result);    
     }
     
 }
