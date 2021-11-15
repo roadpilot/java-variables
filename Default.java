@@ -12,12 +12,15 @@ public class Default {
         String uncommon = new String("Don't do this");
         // can initialize with "new" keyword but it's non-standard
 
-        System.out.println(address);
-        System.out.println(customer);
-        System.out.println(city);
-        System.out.println(zip);
-        System.out.println(country);
-        System.out.println(region);
+        // System.out.println(address);
+        // System.out.println(customer);
+        // System.out.println(city);
+        // System.out.println(zip);
+        // System.out.println(country);
+        // System.out.println(region);
+
+        // concatenation with "+"
+        System.out.println(city + " " + zip);
 
     }
 }
