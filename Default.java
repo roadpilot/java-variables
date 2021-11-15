@@ -29,5 +29,9 @@ public class Default {
 
         int index2 = ipAddress.indexOf('.', index1 + 1);
         System.out.println("The second index of '.' is " + index2);
-    }
+
+        // using "byte" for octet of ip address
+        String secondByte = ipAddress.substring(index1 +1 , index2);
+        System.out.println("Second byte of the ip address is: " + secondByte);
+    }   
 }
